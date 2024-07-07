@@ -1,0 +1,113 @@
+
+div h1 {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+div h2 {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+div b {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+div p {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+div ul {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+div small {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #faf2e0;
+}
+
+
+
+.how {
+    
+    padding: 10px;
+    margin: 10px;
+    grid-area: header;
+}
+
+.about {
+
+    margin: 5px;
+    padding: 10px;
+    background-color: #edb6a6;
+    border-radius: 10px;
+    grid-area: sidebar;
+
+}
+
+.degree {
+    margin: 5px;
+    padding: 10px;
+    background-color: #edb6a6;
+    border-radius: 10px;
+}
+
+.edcation {
+    margin: 5px;
+    padding: 10px;
+    background-color: #edb6a6;
+    border-radius: 10px;
+    
+}
+
+.scl {
+    margin: 5px;
+    padding: 10px;
+    background-color: #edb6a6;
+    border-radius: 10px;
+}
+
+.cont {
+    margin: 5px;
+    padding: 10px;
+    background-color: #edb6a6;
+    border-radius: 10px;
+}
+
+.me {
+    margin: 5px;
+    padding: 10px;
+    background-color: #edb6a6;
+    border-radius: 10px;
+    grid-area: footer;
+
+}
+
+.content {
+    display: grid ;
+    grid-template-rows: 1fr ;
+    grid-template-columns:1fr 1fr  ;
+    grid-template-areas: "header header"  
+    "sidebar content" 
+    "sidebar content" 
+    "sidebar content"
+    "sidebar content"
+    "footer footer" ;
+    
+    
+}
